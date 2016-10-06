@@ -1,7 +1,7 @@
 package com.tonyjs.usertypes;
 
 @SuppressWarnings("serial")
-/*
+/**
  * This class inherits from MixedNumber and is used to create fraction
  * representations by using the MixedNumber constructor. In order to compare 
  * fractions, we take their native double representations.
@@ -10,7 +10,7 @@ package com.tonyjs.usertypes;
  */
 public class Fraction extends MixedNumber
 {
-	/*
+	/**
 	 * Calls the parent class' constructor to create a
 	 * MixedNumber using zero as its implicit whole number
 	 * 
@@ -18,8 +18,8 @@ public class Fraction extends MixedNumber
 	 * @param d This becomes the denominator
 	 * 			which must be greater than 0
 	 */
-	public Fraction(int n, int d)
-	{
-		super(0, n, d);
-	}
+    public Fraction(int n, int d)
+    {
+        super(0, n, d);
+    }
 }
